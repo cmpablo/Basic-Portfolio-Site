@@ -1,0 +1,89 @@
+.container {
+    height: 500px;
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../../images/bg_img.png");
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+#header {
+    background-color: #49aaa5;
+    height: 70px;
+    width: 250px;
+    margin: 0px 0px 10px 150px;
+}
+
+h2, h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header h2 {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#mainNav {
+    background-color: #ffffff;
+    height: 125px;
+    width: 100%;
+    text-align: right;
+}
+
+#mainNav ul {
+    padding: 35px 155px 0px 0px;
+}
+
+#mainNav li {
+    display: inline;
+    color: #777777;
+}
+
+#footer {
+    background-color: #666666;
+    height: 100px;
+    text-align: center;
+}
+
+#footer h5 {
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer img {
+    padding: 0px 10px;
+}
+
+#bioImage {
+    height: 175px;
+    width: 175px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#thumbnails li {
+    display: inline;
+}
+
+#thumbnails img {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
