@@ -1,5 +1,5 @@
 .container {
-    height: 500px;
+    height: 515px; /* how do I make this resize with the browser window without setting an exact value? */
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -17,7 +17,10 @@ body {
     background-color: #49aaa5;
     height: 70px;
     width: 250px;
-    margin: 0px 0px 10px 150px;
+    margin: 0px 0px 10px 160px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
 }
 
 h2, h5 {
@@ -33,13 +36,15 @@ h2, h5 {
 
 #mainNav {
     background-color: #ffffff;
-    height: 125px;
+    height: 100px;
     width: 100%;
     text-align: right;
+    position: absolute;
+    top: 0;
 }
 
 #mainNav ul {
-    padding: 35px 155px 0px 0px;
+    padding: 55px 155px 0px 0px;
 }
 
 #mainNav li {
@@ -51,11 +56,17 @@ h2, h5 {
     background-color: #666666;
     height: 100px;
     text-align: center;
+
+    /* position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
 #footer h5 {
     color: #ffffff;
-    padding: 10px 0px;
+    padding: 15px 0px;
+    font-size: 12px;
 }
 
 footer p {
@@ -70,20 +81,44 @@ footer p {
     padding: 0px 10px;
 }
 
+#mainContent {
+    margin: 75px 0px;
+}
+
+#mainContent h2 {
+    font-size: 1.5em;
+    margin: 0px 20px;
+    padding: 20px 0px 20px 10px;
+}
+
+#mainContent p {
+    padding: 0px 30px 0px 27px;
+    line-height: 1.5;
+}
+
+#mainContent hr {
+    margin: 0px 25px 30px 25px;
+    border-width: 2px;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
 #bioImage {
     height: 175px;
     width: 175px;
+    margin: 0px 25px 15px 30px;
+    float: left;    
 }
 
 a:link {
     text-decoration: none;
 }
 
-#thumbnails li {
+#mainContent li {
     display: inline;
 }
 
-#thumbnails img {
+#mainContent img {
     padding: 10px;
     height: 200px;
     width: 200px;
